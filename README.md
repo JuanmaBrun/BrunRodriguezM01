@@ -1,10 +1,10 @@
-#BrunRodriguezM01
+# BrunRodriguezM01
 
-##EJERCICIO 01
+## EJERCICIO 01
 
 Deberás recrear en android la aplicación del contador que se os proporciona. El diseño se os pasará por figma (abajo teneis el enlace). En este primer ejercicio solo debes hacer la parte visual, nada de lógica. Asegurate de que el resultado final sea identico al proporcionado, en tu criterio queda elegir el o los tipos de layouts que utilizarás. Mediante figma obtén el tipo de fuente, colores etc que debes utilizar en tu aplicación.                                                                                                         
 
-##Comentario                           
+## Comentario                           
 
 Se ha creado un nuevo layout llamado activity_contador, junto a su clase controlador correspondiente ContadorActivity.
 En la nueva activity se han creado los siguientes elementos:
@@ -22,11 +22,11 @@ Se han modificado los atributos de estos elementos para intentar que sean lo má
 
 A petición del ejercicio solo se han creado los elementos visuales de la pantalla, la lógica de las operaciones se añadirá en versiones futuras.
 
-##EJERCICIO 02
+## EJERCICIO 02
 
 Crea la segunda pantalla en el mismo proyecto(investiga como). Deberás realizar un lógin tal y como se muestra en el figma, en el caso de que el usuario y contraseña sean admin en el TextView de abajo saldrá “Usuario y contraseña correcta” en caso contrario “Usuario o contraseña incorrecta”. Investigar por vuestra cuenta como iniciar la aplicación en la Activity login. Pista → se configura en el AndroidManifest.xml. Una vez que iniciemos el login deberá pasar a la pantalla del contador pasando el dato del nombre del usuario (aparecerá en la parte baja de la pantalla de contador donde ponía “by nombre_alumno”).(ACTUALIZADO)
 
-##Comentario
+## Comentario
 
 Se ha creado un nuevo layout llamado activity_login, junto a una nueva clase LoginActivity.
  En la nueva activity se han añadido los siguientes elementos:
@@ -45,7 +45,7 @@ Si el nombre de usuario o contraseña son incorrectos (a petición del ejercicio
 
 ![Screenshot](img/codigoLogin.png)
 
-##Otros cambios
+## Otros cambios
 
 _ El TextView txtName de la activity_contador se ha cambiado a txtUsername y ahora mostrará el nombre del usuario cuando se haya iniciado sesión.
 _ Se ha cambiado el código a ContadorActivity para que recoja la String del nombre de usuario del campo txtEditUser de la activity_Login para que  al iniciar sesión se muestre a traves del texto de txtUsername.
