@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (user.getText().toString().equals("admin") && pass.getText().toString().equals("admin")) {
                     String username = user.getText().toString();
                     status.setText("Usuario y contraseña correctos");
-                    Intent intent = new Intent(getApplicationContext(), ContadorActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), FrameLayout.class);
                     intent.putExtra("username", username);
                     startActivity(intent);
                 } else {
