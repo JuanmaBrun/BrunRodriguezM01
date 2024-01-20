@@ -156,5 +156,33 @@ parte una barra de navegación con la que podamos viajar entre los diferentes fr
   inicie sesión con éxito se trasladara a la vista del FrameLayout y podrá navegar entre los nuevos
   fragmentos creados.
 
+![Screenshot](img/fragment1.png) ![Screenshot](img/fragment2.png)
 
-![Screenshot](img/fragment1.png) ![Screenshot](img/fragment2.png) 
+## EJERCICIO 04
+
+Añade un Fragment mas que se llame API y sigue el tutorial (para la parte del consumo de la API)
+proporcionado para consumir un API con android(en esta entrega no tendrás que reflejar los resultado
+en la interfaz gráfica, solo en el log). Por otro lado crea un microservicio con una sola entidad.
+
+## Comentario
+
+* Se ha creado un nuevo fragment ApiFragment junto a su archivo xml correspondiente
+  fragment_api.xml.
+
+* Se ha creado un nuevo paquete modelo y una nueva clase Product.
+
+* Se ha creado una nueva carpeta interfaces y una nueva interfáz CRUDInterface.
+
+* Se ha añadido codigo a la activity principal LoginActivity que permite consumir la api
+  retrofit-apirest.
+
+- El metodo nos permite hacer una solicitud GET utilizando Retrofit y maneja la respuesta exitosa
+  mostrando todos los productos a través del log y maneja errores que pueden ocurrir durante la
+  solicitud.
+
+![Screenshot](img/getAll().png)
+
+![Screenshot](img/logcat.png)
+
+* En entregas posteriores se mostrará la lista de productos a través del nuevo fragment creado en
+  vez de por consola.
