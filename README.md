@@ -156,7 +156,7 @@ parte una barra de navegación con la que podamos viajar entre los diferentes fr
   inicie sesión con éxito se trasladara a la vista del FrameLayout y podrá navegar entre los nuevos
   fragmentos creados.
 
-![Screenshot1](img/fragment1.png =100x100) ![Screenshot2](img/fragment2.png =100x100)
+![Screenshot1](img/fragment1.png) ![Screenshot2](img/fragment2.png)
 
 ## EJERCICIO 04
 
